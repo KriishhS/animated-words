@@ -1,3 +1,51 @@
 body {
   font-family: sans-serif;
-}
+  }
+
+.word {
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+	  width: 200px;
+    height: 50px;
+    background-color: #FF5050;
+    position: relative;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 3px;
+  }
+
+  .pic{
+    width:100%;
+    height:100%;
+  }
+  
+  #Cow {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   height: 50%;
+   width: 50%;
+  }
+  #Bacon {
+   position: absolute;
+   top: 0%;
+   left: 50%;
+   height: 50%;
+   width: 50%;
+  }
+  #Sad {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   height: 50%;
+   width: 50%;
+  }
+  
+  #Happy {
+   position: absolute;
+   top: 50%;
+   left: 0%;
+   height: 50%;
+   width: 50%;
+  }

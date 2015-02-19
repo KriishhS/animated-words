@@ -6,5 +6,79 @@
     <script language="javascript" src="javascripts/main.js"></script>
   </head>
   <body>
+
+    <div class="img" id="Cow">
+      <img class="pic" alt="Cow" id="cow_img" src="img/cow.png">
+    </div>
+
+    <div class="img" id="Bacon">
+      <img class="pic" alt="Bacon" id="bacon_img" src="img/bacon.jpg">
+    </div>
+
+    <div class="img" id="Sad">
+      <img class="pic" alt="Sad" id="sad_img" src="img/sad.jpg">
+    </div>
+
+    <div class="img" id="Happy">
+      <img class="pic" alt="Happy" id="happy_img" src="img/happy.jpg">
+    </div>
+
   </body>
+  <script>
+
+  var newsrc1 = "cow2";
+  var newsrc2 = "bacon2";
+  var newsrc3 = "sad2";
+  var newsrc4 = "happy2";
+
+    function changeImageCow() {
+      if ( newsrc1 == "cow2" ) {
+          document.images["cow_img"].src = "img/cow2.jpeg";
+          document.images["cow_img"].alt = "Cow2";
+          newsrc1 = "cow";
+      }
+      else {
+          document.images["cow_img"].src = "img/cow.png";
+          document.images["cow_img"].alt = "Cow1";
+          newsrc1  = "cow2";
+      }
+    }
+    function changeImageBacon() {
+      if ( newsrc2 == "bacon2" ) {
+          document.images["bacon_img"].src = "img/bacon2.jpg";
+          document.images["bacon_img"].alt = "Bacon2";
+          newsrc2 = "bacon";
+      }
+      else {
+          document.images["bacon_img"].src = "img/bacon.jpg";
+          document.images["bacon_img"].alt = "Bacon1";
+          newsrc2 = "bacon2";
+      }
+    }
+    function changeImageSad() {
+      if ( newsrc3 == "sad2" ) {
+          document.images["sad_img"].src = "img/sad2.jpg";
+          document.images["sad_img"].alt = "Sad2";
+          newsrc3  = "sad";
+      }
+      else {
+          document.images["sad_img"].src = "img/sad.jpg";
+          document.images["sad_img"].alt = "Sad1";
+          newsrc3  = "sad2";
+      }
+    }
+    function changeImageHappy() {
+      if ( newsrc4 == "happy2" ) {
+          document.images["happy_img"].src = "img/happy2.jpg";
+          document.images["happy_img"].alt = "Happy2";
+          newsrc4  = "happy";
+      }
+      else {
+          document.images["happy_img"].src = "img/happy.jpg";
+          document.images["happy_img"].alt = "Happy1";
+          newsrc4  = "happy2";
+      }
+    }
+  
+  </script>
 </html>
